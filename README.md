@@ -4,7 +4,9 @@ A personal budgeting app I built for myself. Plan the month, see where the money
 
 **Stack:** React 19 · TypeScript · Vite · Recharts · Web Crypto API · Vitest
 
-> The source code is kept private because it's tuned to my own bank data. This page is an overview of what the app does and how it works.
+> The source code is kept private because it's tuned to my own bank data. This page is an overview of what the app does and how it works. All screenshots use made-up data.
+
+![Plan tab: take-home pay split into Needs, Wants and Savings with editable lines](screenshots/plan.png)
 
 ## Features
 
@@ -22,22 +24,38 @@ A personal budgeting app I built for myself. Plan the month, see where the money
 - A category donut, spending by month, suggested budget caps, and a drill-down to every transaction behind a number.
 - Re-categorize any transaction by hand and the choice sticks.
 
+![Spending review: account balances, money flow, monthly bars and a category donut](screenshots/spending.png)
+
 ### Review
 - Month-by-month planned vs. actual for each bucket.
 - Budgets that ran over, spending on pace to run over, and insights.
 - Notes for each month on what went well and what to change.
+
+![Review: planned vs. actual for the month, split vs. the rule, and budget bars](screenshots/review.png)
 
 ### Savings
 - A **savings log**: each time money is put aside or taken out, add a note and see the new total ("Nice! $150 saved. Your savings are now $3,420").
 - A balance-over-time chart and a history grouped by month.
 - **Goals and sinking funds** with target dates; the monthly amount needed is worked out automatically.
 
+![Savings: total saved, balance chart, add-to-savings form and history](screenshots/savings.png)
+
 ### Groceries
 - A shopping list with a trip budget, grouped by aisle.
 - Remembers the prices you've entered before, so repeat items fill in automatically.
 - Running total vs. budget as items go into the cart, plus a log of past trips.
 
+![Groceries: trip budget, estimated total and a list grouped by aisle](screenshots/groceries.png)
+
+### Light mode and phone
+
 Light and dark themes are included, and the layout works on a phone.
+
+<p>
+  <img src="screenshots/review-light.png" alt="Review tab in light mode" width="68%">
+  &nbsp;
+  <img src="screenshots/mobile.png" alt="Savings tab on a phone" width="28%">
+</p>
 
 ## How the data is protected
 
