@@ -52,4 +52,4 @@ Light and dark themes are included, and the layout works on a phone.
 
 - Transactions are processed in a pipeline: parse → normalize → classify → reconcile → aggregate. All money is handled in integer cents to avoid floating-point drift.
 - Unit tests cover the classifier, the reconciliation and the vault (encryption round trip, wrong-password rejection, three-way merge). Acceptance tests check totals against a real statement export, which is kept out of version control.
-- Linted with oxlint and type-checked in strict mode.
+- Linted with oxlint and type-checked with TypeScript 6.
